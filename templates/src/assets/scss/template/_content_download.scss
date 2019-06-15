@@ -121,10 +121,12 @@
   padding: 65px 40px 40px 40px !important;
 }
 
-.content-download-quote-block.yellow span {
-  font-size: 11px !important;
-  line-height: 15px !important;
+.content-download-quote-block.yellow span {;
   color: #ECD616;
-  text-transform: uppercase;
+}
+
+.content-download-data-block.yellow {
+  background-image: url('http://localhost:3000/assets/img/bg-dot_grid-dark_blue.jpg');
+  background-color: #00216E;
 }
 
