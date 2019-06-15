@@ -1,5 +1,6 @@
-.header.content-download-thank-you {
-  background-color: #00216E;
+.header.content-download-thank-you,
+.content-download-thank-you {
+  background-color: #00216E !important;
 }
 
 .header.content-download-thank-you .text-right th {
@@ -21,4 +22,12 @@
 
 .header .content-download-thank-you-padding-right {
   padding-right: 40px !important;
+}
+
+.content-download-thank-you h1 {
+  font-family: "IBM Plex Sans", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #FFFFFF;
 }
