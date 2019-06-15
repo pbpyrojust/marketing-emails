@@ -91,6 +91,23 @@ $anchor-color-hover: darken($primary-color, 10%);
 $anchor-color-active: $anchor-color-hover;
 $stat-font-size: 40px;
 
+body, table.body, p, td, th {
+  font-size: 15px !important;
+  line-height: 25px !important;
+  color: #00216E !important;
+}
+
+li {
+  margin-bottom: 36px !important;
+}
+
+ul li:last-of-type,
+ol li:last-of-type {
+  margin-bottom: 0 !important;
+
+}
+
+
 // 5. Button
 // ---------
 
@@ -104,7 +121,7 @@ $button-font-size: (
   tiny: 10px,
   small: 12px,
   default: 16px,
-  large: 20px,
+  large: 14px,
 );
 $button-color: $white;
 $button-color-alt: $medium-gray;
@@ -142,6 +159,11 @@ $callout-border-alert: 1px solid darken($alert-color, 20%);
 $menu-item-padding: 10px;
 $menu-item-gutter: 10px;
 $menu-item-color: $primary-color;
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 
 // 8. Thumbnail
 // ------------

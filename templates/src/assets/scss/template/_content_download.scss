@@ -9,12 +9,17 @@
 
 .hero-content-download-v1 h1 {
   font-family: "IBM Plex Sans", Helvetica, Arial, sans-serif;
-  font-size: 40px 40px 40px 40px;
+  font-size: 40px;
   line-height: 50px;
-  font-weight: 700;
+  font-weight: bold;
   color: #00216E;
 }
 
 .hero-content-download-v1-padding {
   padding: 40px 40px 40px 40px !important;
+}
+
+.content-download-copy-block {
+  padding-right: 88px !important;
+  padding-left: 88px !important;
 }
