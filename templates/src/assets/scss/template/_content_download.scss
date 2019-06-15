@@ -74,3 +74,21 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+.content-download-cover-block h2 {
+  font-style: 35px;
+  line-height: 43px;
+  font-weight: bold;
+}
+
+.content-download-footer span,
+.content-download-footer .menu-item,
+.content-download-footer a {
+  font-size: 11px !important;
+  line-height: 15px !important;
+  color: #8E8E96;
+}
+
+.content-download-footer a {
+  text-decoration: underline;
+}

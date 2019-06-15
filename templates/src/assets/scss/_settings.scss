@@ -135,7 +135,7 @@ $button-radius: $global-radius;
 $button-rounded: $global-rounded;
 
 table.button.rounded table td {
-  border-radius: 12px !important;
+  border-radius: 6px !important;
 }
 
 table.button.green table td {
@@ -181,3 +181,6 @@ $thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
 $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
 
+.wrapper.secondary {
+  background-color: #F6F6F7;
+}
