@@ -101,9 +101,9 @@
 
 .hero-content-download-v2 {
   height: 406px;
-  background-image: url('http://localhost:3000/assets/img/content-download-1.jpg');
+  background-image: url('http://localhost:3000/assets/img/content-download-2.jpg');
   background-repeat: no-repeat;
-  background-color: #8CC0FF;
+  background-color: #ECD616;
   font-family: "IBM Plex Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #00216E;
@@ -115,5 +115,9 @@
   line-height: 50px;
   font-weight: bold;
   color: #00216E;
+}
+
+.hero-content-download-v2-padding {
+  padding: 65px 40px 40px 40px !important;
 }
 
