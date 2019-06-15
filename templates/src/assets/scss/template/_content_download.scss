@@ -45,6 +45,24 @@
 .content-download-data-block {
   height: 274px;
   background-image: url('http://localhost:3000/assets/img/bg-dot_grid-light_blue.jpg');
-  background-repeat: no-repeat;
   background-color: #8CC0FF;
+}
+
+.content-download-data-block-padding {
+  padding-top: 34px !important;
+  padding-right: 40px !important;
+  padding-bottom: 34px !important;
+  padding-left: 40px !important;
+  width: 519px;
+}
+
+.content-download-data-block-content {
+  height: 205px;
+  background-color: #ffffff;
+}
+
+.content-download-data-block-content span {
+  font-size: 65px;
+  line-height: 78px;
+  font-weight: bold;
 }
