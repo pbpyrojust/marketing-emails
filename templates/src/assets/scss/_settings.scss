@@ -142,6 +142,10 @@ table.button.green table td {
   $button-background: $primary-color;
 }
 
+table.button.blue table td {
+  $button-background: #1A80FF;
+}
+
 table.button table td {
   text-transform: uppercase;
 }
