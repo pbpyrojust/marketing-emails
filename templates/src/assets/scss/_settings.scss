@@ -117,7 +117,7 @@ $button-padding: (
   tiny: 4px 8px 4px 8px,
   small: 5px 10px 5px 10px,
   default: 8px 16px 8px 16px,
-  large: 19px 23px 19px 23px,
+  large: 16px 43px 16px 43px,
 );
 $button-font-size: (
   tiny: 10px,
@@ -146,6 +146,16 @@ table.button.rounded table td {
 .button.blue table td {
   background-color: #1A80FF;
   border: 2px solid #1A80FF;
+}
+
+.button.dark-blue table td {
+  background-color: #00216E;
+}
+
+.button.dark-blue table td a {
+  background-color: #00216E;
+  border: 2px solid #FFFFFF !important;
+  border-radius: 6px !important;
 }
 
 table.button table td {

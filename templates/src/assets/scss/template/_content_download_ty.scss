@@ -31,3 +31,36 @@
   font-weight: bold;
   color: #FFFFFF;
 }
+
+.content-download-thank-you-callout {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.content-download-thank-you-callout h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.content-download-thank-you-callout p {
+  margin-bottom: 50px;
+}
+
+.content-download-thank-you-callout h1,
+.content-download-thank-you-callout h2,
+.content-download-thank-you-callout p,
+.content-download-thank-you-callout span {
+  text-align: center;
+}
+
+.content-download-thank-you-callout center {
+  min-width: 0 !important;
+}
+
+.content-download-thank-you.content-download-footer span,
+.content-download-thank-you.content-download-footer .menu-item,
+.content-download-thank-you.content-download-footer a {
+  color: #FFFFFF;
+}
