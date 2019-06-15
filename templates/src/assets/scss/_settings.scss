@@ -138,12 +138,14 @@ table.button.rounded table td {
   border-radius: 6px !important;
 }
 
-table.button.green table td {
-  $button-background: $primary-color;
+.button.green table td {
+  background-color: $primary-color;
+  border: 2px solid $primary-color;
 }
 
-table.button.blue table td {
-  $button-background: #1A80FF;
+.button.blue table td {
+  background-color: #1A80FF;
+  border: 2px solid #1A80FF;
 }
 
 table.button table td {
