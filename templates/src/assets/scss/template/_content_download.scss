@@ -1,5 +1,7 @@
+// Content Download V1 Template Styles
+
 .hero-content-download-v1 {
-  height: 384px;
+  height: 406px;
   background-image: url('http://localhost:3000/assets/img/content-download-1.jpg');
   background-repeat: no-repeat;
   background-color: #8CC0FF;
@@ -19,6 +21,8 @@
 .hero-content-download-v1-padding {
   padding: 40px 40px 40px 40px !important;
 }
+
+// Content Download Shared Template Styles
 
 .content-download-copy-block {
   padding-right: 88px !important;
@@ -92,3 +96,24 @@
 .content-download-footer a {
   text-decoration: underline;
 }
+
+// Content Download V2 Template Styles
+
+.hero-content-download-v2 {
+  height: 406px;
+  background-image: url('http://localhost:3000/assets/img/content-download-1.jpg');
+  background-repeat: no-repeat;
+  background-color: #8CC0FF;
+  font-family: "IBM Plex Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #00216E;
+}
+
+.hero-content-download-v2 h1 {
+  font-family: "IBM Plex Sans", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  color: #00216E;
+}
+
