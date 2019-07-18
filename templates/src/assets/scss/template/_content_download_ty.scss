@@ -20,8 +20,16 @@
   padding-left: 40px !important;
 }
 
+.content-download-thank-you-padding-left-hero {
+  padding-left: 40px;
+}
+
 .content-download-thank-you-padding-right {
   padding-right: 40px !important;
+}
+
+.content-download-thank-you-padding-right-hero {
+  padding-right: 40px;
 }
 
 .content-download-thank-you h1 {
@@ -63,4 +71,18 @@
 .content-download-thank-you.content-download-footer .menu-item,
 .content-download-thank-you.content-download-footer a {
   color: #FFFFFF;
+}
+
+@media (max-width: 596px) {
+  .content-download-thank-you-padding-left-hero h1,
+  .content-download-thank-you-padding-left-hero .button {
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  .content-download-thank-you-padding-left-hero,
+  .content-download-thank-you-padding-right-hero {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+  }
 }
