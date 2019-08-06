@@ -1,5 +1,5 @@
-# mavenlink-emails
-HTML email templates for Mavenlink
+# marketing-emails
+HTML email templates for a marketing company
 
 ## Build Commands
 
